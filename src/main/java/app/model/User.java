@@ -63,11 +63,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
-                ", nickname='" + nickname + '\'' +
-                '}';
+        return "Пользователь : ID: %d, ИМЯ: '%s', ПОЛ: '%s', НИКНЕЙМ: '%s".formatted(id, name, gender, nickname);
     }
 }
